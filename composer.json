@@ -1,0 +1,30 @@
+{
+  "name": "vaened/php-search-engine",
+  "description": "A flexible PHP search library that provides essential features for implementing search engines. It includes capabilities for filtering, indexing, and search functionalities. Designed to be easily extensible, it integrates seamlessly with different ORM frameworks to enhance search operations and manage complex queries.",
+  "type": "library",
+  "keywords": [
+    "search",
+    "filter",
+    "indexing",
+    "query",
+    "php",
+    "search-engine"
+  ],
+  "require": {
+    "php": "^8.1",
+    "vaened/php-criteria-core": "^1.0",
+    "vaened/support": "^4.0"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vaened\\SearchEngine\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Enea Dhack",
+      "email": "enea.so@live.com"
+    }
+  ]
+}

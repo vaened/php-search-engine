@@ -1,0 +1,171 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "30ee04283eb3d2355c991d902df198de",
+    "packages": [
+        {
+            "name": "lambdish/phunctional",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lambdish/phunctional.git",
+                "reference": "ed3482e7da134d886789abb33c6df22a5d2f271c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lambdish/phunctional/zipball/ed3482e7da134d886789abb33c6df22a5d2f271c",
+                "reference": "ed3482e7da134d886789abb33c6df22a5d2f271c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.11.16",
+                "phpunit/phpunit": "^8.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/_bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Eloi Poch"
+                },
+                {
+                    "name": "Jorge Ávila"
+                },
+                {
+                    "name": "Rafa Gómez"
+                }
+            ],
+            "description": "λ PHP functional library",
+            "keywords": [
+                "functional",
+                "generator",
+                "lambda",
+                "library",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/Lambdish/phunctional/issues",
+                "source": "https://github.com/Lambdish/phunctional/tree/v2.1.0"
+            },
+            "time": "2020-09-18T07:22:08+00:00"
+        },
+        {
+            "name": "vaened/php-criteria-core",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaened/php-criteria-core.git",
+                "reference": "9beba864dbdda0a76ac2c862736d706d832c54b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaened/php-criteria-core/zipball/9beba864dbdda0a76ac2c862736d706d832c54b0",
+                "reference": "9beba864dbdda0a76ac2c862736d706d832c54b0",
+                "shasum": ""
+            },
+            "require": {
+                "lambdish/phunctional": "^2.1",
+                "php": "^8.1",
+                "vaened/support": "^v4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.1",
+                "symfony/var-dumper": "^6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vaened\\CriteriaCore\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enea Dhack",
+                    "email": "enea.so@live.com"
+                }
+            ],
+            "description": "Core functionality to implement criteria pattern using php",
+            "keywords": [
+                "criteria",
+                "enea",
+                "vaened"
+            ],
+            "support": {
+                "issues": "https://github.com/vaened/php-criteria-core/issues",
+                "source": "https://github.com/vaened/php-criteria-core/tree/v1.0"
+            },
+            "time": "2024-08-14T16:39:59+00:00"
+        },
+        {
+            "name": "vaened/support",
+            "version": "v4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vaened/support.git",
+                "reference": "80255fabe57b7a9f7a561655b845d8fecdda014b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vaened/support/zipball/80255fabe57b7a9f7a561655b845d8fecdda014b",
+                "reference": "80255fabe57b7a9f7a561655b845d8fecdda014b",
+                "shasum": ""
+            },
+            "require": {
+                "lambdish/phunctional": "^2.1",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.1",
+                "roave/security-advisories": "dev-latest",
+                "symfony/var-dumper": "^6.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Vaened\\Support\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Enea Dhack",
+                    "email": "enea.so@live.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/vaened/support/issues",
+                "source": "https://github.com/vaened/support/tree/v4.0"
+            },
+            "time": "2024-07-21T20:36:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
