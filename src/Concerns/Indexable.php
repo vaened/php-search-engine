@@ -16,7 +16,7 @@ use Vaened\SearchEngine\indexer;
  *
  * @mixin AbstractSearchEngine
  */
-trait Indexed
+trait Indexable
 {
     abstract protected function indexer(): indexer;
 
