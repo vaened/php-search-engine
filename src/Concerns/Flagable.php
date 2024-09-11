@@ -11,8 +11,8 @@ use Vaened\CriteriaCore\Directives\Expression;
 use Vaened\CriteriaCore\Directives\Filter;
 use Vaened\CriteriaCore\Directives\Scope;
 use Vaened\SearchEngine\AbstractSearchEngine;
-use Vaened\SearchEngine\Filterer;
 use Vaened\SearchEngine\FlagBag;
+use Vaened\SearchEngine\Flagger;
 
 /**
  * Facilitates the search by flags.
@@ -21,7 +21,7 @@ use Vaened\SearchEngine\FlagBag;
  */
 trait Flagable
 {
-    abstract protected function filterer(): Filterer;
+    abstract protected function filterer(): Flagger;
 
     public function filter(FlagBag $flags): self
     {

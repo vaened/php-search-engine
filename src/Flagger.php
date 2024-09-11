@@ -11,7 +11,7 @@ use Vaened\Support\Types\ArrayList;
 
 use function Lambdish\Phunctional\apply;
 
-abstract class Filterer
+abstract class Flagger
 {
     abstract public function flags(): FilterBag;
 
