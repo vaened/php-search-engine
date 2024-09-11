@@ -161,6 +161,6 @@ In the **Search Library**, each filter is treated as a separate PHP class with i
 
 For instance, instead of having scattered filtering functions, classes like `PersonId` and `PersonName` are defined, each containing methods such as `equals(value)` or `startsWith(value)`. This not only enhances code clarity but also enables more efficient reuse of filters in different contexts. By keeping filtering logic within dedicated classes, each filter has a single, well-defined responsibility, contributing to a cleaner and more organized design.
 
-### Defining a Search Engine
+## License
 
-To create a search engine, you need to define a class that extends the `AbstractSearchEngine` class.
+This library is licensed under the MIT License. For more information, please see the [`license`](./license) file.
