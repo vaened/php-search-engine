@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Vaened\SearchEngine\Evaluators;
+namespace Vaened\SearchEngine\Definitions;
 
 use Vaened\CriteriaCore\Directives\Expression;
 use Vaened\CriteriaCore\Directives\Filter;

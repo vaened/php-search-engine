@@ -5,14 +5,14 @@
 
 declare(strict_types=1);
 
-namespace Vaened\SearchEngine\Evaluators\Fields;
+namespace Vaened\SearchEngine\Definitions\Fields;
 
 use Vaened\CriteriaCore\Directives\Filter;
 use Vaened\CriteriaCore\Keyword\FilterOperator;
 use Vaened\CriteriaCore\Statement;
-use Vaened\SearchEngine\Evaluators\Field;
-use Vaened\SearchEngine\Evaluators\Pattern;
-use Vaened\SearchEngine\Evaluators\ValueMultiplier;
+use Vaened\SearchEngine\Definitions\Field;
+use Vaened\SearchEngine\Definitions\Pattern;
+use Vaened\SearchEngine\Definitions\ValueMultiplier;
 
 final class Query implements Field
 {

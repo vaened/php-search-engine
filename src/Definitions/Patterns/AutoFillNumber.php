@@ -5,9 +5,9 @@
 
 declare(strict_types=1);
 
-namespace Vaened\SearchEngine\Evaluators\Aspects\Regex;
+namespace Vaened\SearchEngine\Definitions\Patterns;
 
-use Vaened\SearchEngine\Evaluators\StringFiller;
+use Vaened\SearchEngine\Definitions\Filler\StringFiller;
 
 final class AutoFillNumber extends Number
 {

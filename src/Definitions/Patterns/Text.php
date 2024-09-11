@@ -5,9 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Vaened\SearchEngine\Evaluators\Aspects\Regex;
-
-use Vaened\SearchEngine\Evaluators\Aspects\Regex;
+namespace Vaened\SearchEngine\Definitions\Patterns;
 
 final class Text extends Regex
 {

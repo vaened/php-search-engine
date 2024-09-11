@@ -10,7 +10,7 @@ namespace Vaened\SearchEngine;
 use Vaened\CriteriaCore\Directives\Expression;
 use Vaened\CriteriaCore\Directives\Filter;
 use Vaened\CriteriaCore\Directives\Scope;
-use Vaened\SearchEngine\Evaluators\Field;
+use Vaened\SearchEngine\Definitions\Field;
 
 final class QueryStringMatcher
 {

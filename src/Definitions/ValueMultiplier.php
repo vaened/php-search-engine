@@ -5,7 +5,7 @@
 
 declare(strict_types=1);
 
-namespace Vaened\SearchEngine\Evaluators;
+namespace Vaened\SearchEngine\Definitions;
 
 use Vaened\CriteriaCore\Keyword\FilterOperator;
 use Vaened\SearchEngine\OperatorCannotBeConvertedToMultiple;
