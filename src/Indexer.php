@@ -12,7 +12,7 @@ use Vaened\CriteriaCore\Directives\{Expression, Filter, Scope};
 
 use function Lambdish\Phunctional\apply;
 
-abstract class indexer
+abstract class Indexer
 {
     abstract public function indexes(): FilterBag;
 
