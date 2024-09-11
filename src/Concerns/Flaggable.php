@@ -19,7 +19,7 @@ use Vaened\SearchEngine\Flagger;
  *
  * @mixin AbstractSearchEngine
  */
-trait Flagable
+trait Flaggable
 {
     abstract protected function filterer(): Flagger;
 

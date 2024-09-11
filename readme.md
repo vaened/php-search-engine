@@ -7,7 +7,7 @@ integrate with specific ORMs.
 ```php
 class ProductSearchEngine extends SearchEngine  
 {  
-    use Flagable, Indexable;  
+    use Flaggable, Indexable;  
   
     public function __construct(  
         private readonly IndexRepository $index,  
@@ -43,7 +43,7 @@ composer require vaened/php-search-engine
 ## Usage
 
 This library provides a foundational framework for creating search engines. It includes the `AbstractSearchEngine` class as a base for
-custom search implementations and two key traits: `Flagable` for filtering based on flags, and `Indexable` for search operations using
+custom search implementations and two key traits: `Flaggable` for filtering based on flags, and `Indexable` for search operations using
 indices. These components work together to offer a flexible and extensible solution for managing search criteria.
 
 ### Search Engine
@@ -80,11 +80,10 @@ protected function criteria(int $page = 1, ?int $perPage = null): Criteria
 
 > This method calculates the pagination offset and initializes the Criteria object with the accumulated search criteria, order, and
 > pagination details.
->
 
-### Flagable Trait
+### Flaggable Trait
 
-The Flagable trait adds the `filter` method to the SearchEngine, allowing you to apply filters based on specific flags. This method takes a
+The Flaggable trait adds the `filter` method to the SearchEngine, allowing you to apply filters based on specific flags. This method takes a
 FlagBag containing a set of flags and applies the corresponding filters. Each flag becomes a search criterion that is added to the engine.
 
 ```php
