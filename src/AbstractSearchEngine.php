@@ -23,7 +23,7 @@ abstract class AbstractSearchEngine
 
     private array    $criterias = [];
 
-    public abstract function list(int $page = 1, ?int $perPage = null): mixed;
+    public abstract function list(?int $limit = null): mixed;
 
     public abstract function paginate(int $page = 1, ?int $perPage = null): mixed;
 
