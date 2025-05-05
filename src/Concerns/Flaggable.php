@@ -21,11 +21,11 @@ use Vaened\SearchEngine\Flagger;
  */
 trait Flaggable
 {
-    abstract protected function filterer(): Flagger;
+    abstract protected function flagger(): Flagger;
 
     public function filter(FlagBag $flags): self
     {
-        $this->filterer()
+        $this->flagger()
              ->only($flags)
              ->each(
                  fn(Scope|Expression|Filter $criteria) => $this->apply($criteria)
