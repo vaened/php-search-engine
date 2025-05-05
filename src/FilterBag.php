@@ -11,7 +11,7 @@ use BackedEnum;
 use Vaened\CriteriaCore\Directives\{Expression, Filter, Scope};
 use Vaened\Support\Types\ArrayList;
 
-final class FilterBag
+class FilterBag
 {
     private array $filters = [];
 

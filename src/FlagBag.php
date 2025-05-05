@@ -10,7 +10,7 @@ namespace Vaened\SearchEngine;
 use BackedEnum;
 use Vaened\Support\Types\SecureList;
 
-final class FlagBag extends SecureList
+class FlagBag extends SecureList
 {
     public static function from(iterable $flags): self
     {
