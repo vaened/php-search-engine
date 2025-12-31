@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Vaened\SearchEngine;
 
 use BackedEnum;
-use Vaened\CriteriaCore\Directives\{Expression, Filter, Scope};
+use Vaened\CriteriaCore\Directives\{Expression, Filter, Predicate, Scope};
 
 use function Lambdish\Phunctional\apply;
 
@@ -16,7 +16,7 @@ abstract class Indexer
 {
     abstract public function indexes(): FilterBag;
 
-    public function search(BackedEnum $index, string $queryString): null|Scope|Expression|Filter
+    public function search(BackedEnum $index, string $queryString): null|Predicate|Scope|Expression|Filter
     {
         $criteria = $this->indexes()->get($index);
 

@@ -8,7 +8,7 @@ declare(strict_types=1);
 namespace Vaened\SearchEngine;
 
 use BackedEnum;
-use Vaened\CriteriaCore\Directives\{Expression, Filter, Scope};
+use Vaened\CriteriaCore\Directives\{Expression, Filter, Predicate, Scope};
 use Vaened\Support\Types\ArrayList;
 
 class FilterBag
@@ -24,7 +24,7 @@ class FilterBag
      * Registers the possible filters that can be applied to the search.
      *
      * @param BackedEnum $enum
-     * @param callable(mixed): <Filter|Expression|Scope> $action
+     * @param callable(mixed): <Filter|Expression|Scope|Predicate> $action
      *
      * @return FilterBag
      */

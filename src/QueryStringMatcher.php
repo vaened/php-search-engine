@@ -9,6 +9,7 @@ namespace Vaened\SearchEngine;
 
 use Vaened\CriteriaCore\Directives\Expression;
 use Vaened\CriteriaCore\Directives\Filter;
+use Vaened\CriteriaCore\Directives\Predicate;
 use Vaened\CriteriaCore\Directives\Scope;
 use Vaened\SearchEngine\Definitions\Field;
 
@@ -26,7 +27,7 @@ final class QueryStringMatcher
         return new self(...$fields);
     }
 
-    public function resolve(string $value): null|Scope|Expression|Filter
+    public function resolve(string $value): null|Predicate|Scope|Expression|Filter
     {
         return $this->firstMatchOf($value)?->resolve($value);
     }

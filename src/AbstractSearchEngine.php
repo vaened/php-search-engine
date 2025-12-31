@@ -35,7 +35,7 @@ abstract class AbstractSearchEngine
         return $this;
     }
 
-    protected function apply(Scope|Expression|Filter|Predicate ...$criterias): void
+    protected function apply(Predicate|Scope|Expression|Filter ...$criterias): void
     {
         $this->criterias = array_merge($this->criterias, $criterias);
     }

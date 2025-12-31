@@ -9,6 +9,7 @@ namespace Vaened\SearchEngine\Concerns;
 
 use Vaened\CriteriaCore\Directives\Expression;
 use Vaened\CriteriaCore\Directives\Filter;
+use Vaened\CriteriaCore\Directives\Predicate;
 use Vaened\CriteriaCore\Directives\Scope;
 use Vaened\SearchEngine\AbstractSearchEngine;
 use Vaened\SearchEngine\FlagBag;
@@ -28,7 +29,7 @@ trait Flaggable
         $this->flagger()
              ->only($flags)
              ->each(
-                 fn(Scope|Expression|Filter $criteria) => $this->apply($criteria)
+                 fn(Predicate|Scope|Expression|Filter $criteria) => $this->apply($criteria)
              );
 
         return $this;
