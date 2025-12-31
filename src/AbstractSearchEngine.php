@@ -8,9 +8,8 @@ declare(strict_types=1);
 namespace Vaened\SearchEngine;
 
 use Vaened\CriteriaCore\Criteria;
-use Vaened\CriteriaCore\Directives\{Expression, Filter, Scope};
+use Vaened\CriteriaCore\Directives\{Expression, Filter, Predicate, Scope};
 use Vaened\CriteriaCore\Keyword\Order;
-use Vaened\CriteriaCore\Predicate;
 
 use function array_merge;
 

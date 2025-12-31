@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ec4085b99b70598f9f88457d082edf65",
+    "content-hash": "f36ddc634776b88f7bfae8a474f07e50",
     "packages": [
         {
             "name": "lambdish/phunctional",
@@ -64,16 +64,16 @@
         },
         {
             "name": "vaened/php-criteria-core",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vaened/php-criteria-core.git",
-                "reference": "00e8f25a80a73983f2b0807a2d3804039e9cfe74"
+                "reference": "257ff5f12d5d83067418a3013871b9a7c6a9ea80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaened/php-criteria-core/zipball/00e8f25a80a73983f2b0807a2d3804039e9cfe74",
-                "reference": "00e8f25a80a73983f2b0807a2d3804039e9cfe74",
+                "url": "https://api.github.com/repos/vaened/php-criteria-core/zipball/257ff5f12d5d83067418a3013871b9a7c6a9ea80",
+                "reference": "257ff5f12d5d83067418a3013871b9a7c6a9ea80",
                 "shasum": ""
             },
             "require": {
@@ -109,9 +109,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vaened/php-criteria-core/issues",
-                "source": "https://github.com/vaened/php-criteria-core/tree/v1.0.3"
+                "source": "https://github.com/vaened/php-criteria-core/tree/v1.0.4"
             },
-            "time": "2025-12-31T16:01:37+00:00"
+            "time": "2025-12-31T19:32:29+00:00"
         },
         {
             "name": "vaened/support",
