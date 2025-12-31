@@ -10,6 +10,7 @@ namespace Vaened\SearchEngine;
 use Vaened\CriteriaCore\Criteria;
 use Vaened\CriteriaCore\Directives\{Expression, Filter, Scope};
 use Vaened\CriteriaCore\Keyword\Order;
+use Vaened\CriteriaCore\Predicate;
 
 use function array_merge;
 
@@ -35,7 +36,7 @@ abstract class AbstractSearchEngine
         return $this;
     }
 
-    protected function apply(Scope|Expression|Filter ...$criterias): void
+    protected function apply(Scope|Expression|Filter|Predicate ...$criterias): void
     {
         $this->criterias = array_merge($this->criterias, $criterias);
     }
