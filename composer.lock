@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "30ee04283eb3d2355c991d902df198de",
+    "content-hash": "ec4085b99b70598f9f88457d082edf65",
     "packages": [
         {
             "name": "lambdish/phunctional",
@@ -64,16 +64,16 @@
         },
         {
             "name": "vaened/php-criteria-core",
-            "version": "v1.0",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vaened/php-criteria-core.git",
-                "reference": "9beba864dbdda0a76ac2c862736d706d832c54b0"
+                "reference": "00e8f25a80a73983f2b0807a2d3804039e9cfe74"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vaened/php-criteria-core/zipball/9beba864dbdda0a76ac2c862736d706d832c54b0",
-                "reference": "9beba864dbdda0a76ac2c862736d706d832c54b0",
+                "url": "https://api.github.com/repos/vaened/php-criteria-core/zipball/00e8f25a80a73983f2b0807a2d3804039e9cfe74",
+                "reference": "00e8f25a80a73983f2b0807a2d3804039e9cfe74",
                 "shasum": ""
             },
             "require": {
@@ -109,9 +109,9 @@
             ],
             "support": {
                 "issues": "https://github.com/vaened/php-criteria-core/issues",
-                "source": "https://github.com/vaened/php-criteria-core/tree/v1.0"
+                "source": "https://github.com/vaened/php-criteria-core/tree/v1.0.3"
             },
-            "time": "2024-08-14T16:39:59+00:00"
+            "time": "2025-12-31T16:01:37+00:00"
         },
         {
             "name": "vaened/support",
@@ -162,10 +162,12 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {
+        "php": "^8.1"
+    },
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
